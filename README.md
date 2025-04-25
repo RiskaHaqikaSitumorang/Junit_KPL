@@ -13,7 +13,7 @@ Aplikasi ini telah dilengkapi dengan **unit test (local test)** dan **instrument
 
 ---
 
-##🚀 Fitur Aplikasi
+## 🚀 Fitur Aplikasi
 - Menambahkan tantangan baru
 - Mengedit tantangan yang ada
 - Menandai tantangan yang sudah selesai
@@ -93,3 +93,19 @@ git clone https://github.com/RiskaHaqikaSitumorang/Junit_KPL.git
 - Klik Run di Android Studio dan pilih emulator atau perangkat Android yang terhubung.
 
 
+## 🧪 **Pengujian**
+
+Aplikasi ini sudah dilengkapi dengan dua jenis pengujian:
+
+- **Unit Test** (local test) – untuk memeriksa fungsionalitas kode secara lokal.
+- **Instrumented Test** – untuk memeriksa fungsionalitas aplikasi di perangkat Android atau emulator.
+
+### Cara menjalankan test:
+
+#### 1. **Unit Test**:
+- Buka file `ExampleUnitTest.kt`
+- Klik **Run** pada fungsi test atau jalankan seluruh kelas unit test.
+
+#### 2. **Instrumented Test**:
+- Buka file `ExampleInstrumentedTest.kt`
+- Klik **Run** pada fungsi test atau jalankan seluruh kelas instrumented test.
