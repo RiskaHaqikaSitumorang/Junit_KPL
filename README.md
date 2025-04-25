@@ -3,6 +3,9 @@
 Aplikasi Android sederhana untuk mencatat dan menyelesaikan tantangan harian. Pengguna dapat menambahkan challenge, mengedit, menandai sebagai selesai, dan menghapusnya.
 
 ---
+## ✍️ Author
+Riska Haqika Situmorang | 2208107010086
+
 
 ## 🧪 Unit & Instrumented Testing
 
@@ -36,13 +39,19 @@ File: `app/src/androidTest/java/.../ExampleInstrumentedTest.kt`
 
 ### 📸 Bukti Hasil Test
 
-> Silakan lihat gambar hasil test di bawah ini.
-
 | Unit Test Results | Instrumented Test Results |
 |-------------------|---------------------------|
 | ![Unit Test](screenshots/unit_test_result.png) | ![Instrumented Test](screenshots/instrumented_test_result.png) |
 
 ---
+
+## 🚀 Teknologi
+- Kotlin
+- Android SDK
+- RecyclerView
+- AlertDialog
+- Unit Testing (JUnit)
+- Instrumented Testing (AndroidJUnit4)
 
 ## 📂 Struktur Folder Utama
 
@@ -56,3 +65,7 @@ File: `app/src/androidTest/java/.../ExampleInstrumentedTest.kt`
 │   │   │   └── ChallengeRepository.kt
 │   │   ├── androidTest/java/.../ExampleInstrumentedTest.kt
 │   │   └── test/java/.../ExampleUnitTest.kt
+
+
+
+
