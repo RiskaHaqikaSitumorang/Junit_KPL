@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#F9F5FF"
+    android:layout_marginVertical="4dp"
+    android:padding="8dp"
+    android:gravity="center_vertical">
+
+    <!-- CheckBox untuk tantangan -->
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:minHeight="48dp"
+        android:text="@string/hint_tantangan"
+        android:textColor="#6B5B95"
+        android:textSize="16sp" />
+
+    <!-- Tombol Edit - Using a system icon instead of custom -->
+    <ImageButton
+        android:id="@+id/buttonEdit"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:padding="8dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:contentDescription="Edit challenge"
+        android:src="@android:drawable/ic_menu_edit" />
+
+    <!-- Tombol Delete -->
+    <ImageButton
+        android:id="@+id/buttonDelete"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:padding="8dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:contentDescription="Delete challenge"
+        android:src="@android:drawable/ic_menu_delete"
+        />
+
+</LinearLayout>

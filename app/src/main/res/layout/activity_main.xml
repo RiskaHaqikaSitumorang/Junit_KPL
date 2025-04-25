@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F8F5FF"
+    android:padding="16dp">
+
+    <!-- App Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Challenge Tracker"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#6B5B95"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        android:padding="8dp"
+        android:background="#E0D3F5"/>
+
+    <!-- Input area with nice styling -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#F0E6FF"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp">
+
+        <EditText
+            android:id="@+id/etChallenge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:paddingVertical="12dp"
+            android:paddingHorizontal="16dp"
+            android:hint="@string/hint_tantangan"
+            android:inputType="text"
+            android:autofillHints="text"
+            android:textColor="#6B5B95"
+            android:background="#F9F5FF"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_add"
+            android:padding="12dp"
+            android:backgroundTint="#B5A6D9"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+
+    <!-- Title for challenge list -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Challenges"
+        android:textSize="20sp"
+        android:textColor="#6B5B95"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Challenge list with styled container -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#F0E6FF"
+        android:padding="8dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvChallenges"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"/>
+    </FrameLayout>
+</LinearLayout>
