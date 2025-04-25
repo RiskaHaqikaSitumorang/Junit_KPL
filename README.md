@@ -13,6 +13,21 @@ Aplikasi ini telah dilengkapi dengan **unit test (local test)** dan **instrument
 
 ---
 
+##🚀 Fitur Aplikasi
+- Menambahkan tantangan baru
+- Mengedit tantangan yang ada
+- Menandai tantangan yang sudah selesai
+- Menghapus tantangan
+
+## 🚀 Teknologi yang Digunakan
+- Kotlin
+- Android SDK
+- RecyclerView
+- AlertDialog
+- Unit Testing (JUnit)
+- Instrumented Testing (AndroidJUnit4)
+
+ 
 ### ✅ Unit Tests (Local Test)
 
 File: `app/src/test/java/.../ExampleUnitTest.kt`
@@ -45,14 +60,6 @@ File: `app/src/androidTest/java/.../ExampleInstrumentedTest.kt`
 
 ---
 
-## 🚀 Teknologi
-- Kotlin
-- Android SDK
-- RecyclerView
-- AlertDialog
-- Unit Testing (JUnit)
-- Instrumented Testing (AndroidJUnit4)
-
 ## 📂 Struktur Folder Utama
 
 ```bash
@@ -66,6 +73,23 @@ File: `app/src/androidTest/java/.../ExampleInstrumentedTest.kt`
 │   │   ├── androidTest/java/.../ExampleInstrumentedTest.kt
 │   │   └── test/java/.../ExampleUnitTest.kt
 
+```
 
+## ⚙️ **Cara Instalasi**
+
+Untuk menjalankan proyek ini di komputer lokal:
+
+1. **Clone repository:**
+
+```bash
+git clone https://github.com/RiskaHaqikaSitumorang/Junit_KPL.git
+```
+2. Buka proyek di Android Studio
+
+- Pastikan Android Studio telah terpasang dan diatur dengan benar.
+- Import proyek ini dengan membuka folder DaylichallangeApp di Android Studio.
+
+3. Jalankan aplikasi:
+- Klik Run di Android Studio dan pilih emulator atau perangkat Android yang terhubung.
 
 
